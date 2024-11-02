@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array mapping</title>
+</head>
+<body>
+    <h1>Array Mapping</h1>
+    <p id="p1"></p>
+    <script>
+        var numbers = [12, 19, 5, 30]
+        function myFunction(num) {
+            return num* 100;
+        }
+         var newarray = numbers.map(myFunction);
+         document.getElementById("p1").innerHTML = newarray;
+        </script>
+
+</body>
+</html>

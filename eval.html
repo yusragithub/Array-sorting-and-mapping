@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Eval function</h1>
+    <button onclick="myFunction()">Click Me!</button>
+    <p id="p1"></p>
+    <script>
+        function myFunction() {
+            var x = 10;
+            var y = 20;
+            var a = eval("x + y") + "<br>";
+            var b = eval("2 * 2") + "<br>";
+            var c = eval("y - x") + "<br>";
+
+            var result = a + b + c; //concatenates the string
+            document.getElementById("p1").innerHTML = result;
+        }
+    </script>
+</body>
+
+</html>
